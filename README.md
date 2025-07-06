@@ -1,3 +1,5 @@
+![Header](https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.png)
+
 # Hi there! 👋 I'm Mehran Naderizadeh
 
 [![Website](https://img.shields.io/badge/Website-m3hr4n.com-blue?style=flat-square&logo=google-chrome)](https://m3hr4n.com)
@@ -102,6 +104,7 @@ I'm passionate about DevOps, infrastructure automation, and solving complex tech
 ## 📈 GitHub Stats
 
 ![Mehran's GitHub stats](https://github-readme-stats.vercel.app/api?username=m3hr4nn&show_icons=true&theme=radical)
+
 
 ## 🐍 Contribution Snake
 
