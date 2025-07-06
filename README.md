@@ -2,6 +2,12 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;Managing+6000%2B+Resources+%7C+6%2B+Years+Experience" alt="Typing SVG" />
 </div>
 
+<!-- Centered with rounded corners -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.jpg" alt="Header" style="border-radius: 10px;" />
+</div>
+
+
 [![Website](https://img.shields.io/badge/Website-m3hr4n.com-blue?style=flat-square&logo=google-chrome)](https://m3hr4n.com)
 [![Email](https://img.shields.io/badge/Email-mehran.n1995@gmail.com-red?style=flat-square&logo=gmail)](mailto:mehran.n1995@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mehran%20Naderizadeh-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/m3hr4nn)
