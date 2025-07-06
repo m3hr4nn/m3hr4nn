@@ -1,4 +1,4 @@
-![Header](https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.png)
+![Header](https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.jpg)
 
 # Hi there! 👋 I'm Mehran Naderizadeh
 
