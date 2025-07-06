@@ -2,9 +2,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;Managing+6000%2B+Resources+%7C+6%2B+Years+Experience" alt="Typing SVG" />
 </div>
 
-<!-- Centered with rounded corners -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.jpg" alt="Header" style="border-radius: 10px;" />
+  <img src="https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.jpg" alt="Header"/>
 </div>
 
 
