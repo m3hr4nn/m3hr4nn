@@ -1,6 +1,6 @@
-![Header](https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/main/header-image.jpg)
-
-# Hi there! 👋 I'm Mehran Naderizadeh
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;Managing+6000%2B+Resources+%7C+6%2B+Years+Experience" alt="Typing SVG" />
+</div>
 
 [![Website](https://img.shields.io/badge/Website-m3hr4n.com-blue?style=flat-square&logo=google-chrome)](https://m3hr4n.com)
 [![Email](https://img.shields.io/badge/Email-mehran.n1995@gmail.com-red?style=flat-square&logo=gmail)](mailto:mehran.n1995@gmail.com)
