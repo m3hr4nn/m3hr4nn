@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;Managing+6000%2B+Resources+%7C+6%2B+Years+Experience" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;+6%2B+Years+in+the+business" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 > *"Transforming infrastructure challenges into scalable solutions, one container at a time."*
 
-Currently serving as **InfraDevOps/OS Expert**  managing 6000+ computing resources across 10+ data centers. With nearly 6 years of experience in enterprise-scale DevOps, I specialize in building robust, scalable infrastructure that powers mission-critical telecom services.
+I am a dedicated DevOps Engineer with nearly six years of comprehensive experience in software infrastructure and enterprise-scale systems, specializing in containerization, automation, and cloud technologies. Currently managing over 5,000 computing resources across multiple data centers for a leading telecommunications operator, ensuring optimal uptime and SLA compliance while developing efficient CI/CD pipelines. Previously led the strategic transition from VM-based to container-based infrastructure, managing 250+ bare-metal servers and deploying over 2,000 containerized workloads. My expertise encompasses Linux administration, Kubernetes, Python, Ansible, and enterprise solutions.
 
 ---
 
@@ -50,7 +50,7 @@ Currently serving as **InfraDevOps/OS Expert**  managing 6000+ computing resourc
 ```yaml
 Current Role: InfraDevOps/OS Expert
 Scale:
-  - Computing Resources: 6000+
+  - Computing Resources: 5000+
   - Data Centers: 10+
   - Container Workloads: 2000+
   - Production VM Nodes: 10000+
@@ -71,7 +71,7 @@ Uptime: 99.9%+ SLA compliance
 
 ## 🌟 Notable Achievements
 
-- 🏆 **Scale Master**: Successfully managed infrastructure serving millions of telecom customers
+- 🏆 **Scale Master**: Successfully managed infrastructure & software serving millions of telecom customers
 - 🚀 **Transformation Leader**: Led complete infrastructure modernization from VMs to containers
 - 📈 **Performance Optimizer**: Maintained 99.9%+ uptime across enterprise-scale deployments
 - 🔧 **Problem Solver**: Specialized in complex incident recovery and system optimization
