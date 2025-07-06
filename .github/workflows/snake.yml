@@ -2,18 +2,24 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # Runs daily at 12:00 UTC
+    - cron: "0 12 * * *"
   workflow_dispatch:
   push:
     branches:
-    - master
+    - main  # Changed from master to main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
+    permissions:
+      contents: write  # This is the key addition!
+    
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
       - name: Generate snake game
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
