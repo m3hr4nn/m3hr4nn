@@ -110,12 +110,7 @@ I'm passionate about DevOps, infrastructure automation, and solving complex tech
 
 ![Mehran's GitHub stats](https://github-readme-stats.vercel.app/api?username=m3hr4nn&show_icons=true&theme=radical)
 
-
-## 🐍 Contribution Snake
-
 ![Snake animation](https://raw.githubusercontent.com/m3hr4nn/m3hr4nn/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
-*The snake devours my contributions and grows stronger with each commit!*
 
 ---
 
