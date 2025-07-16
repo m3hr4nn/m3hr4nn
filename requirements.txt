@@ -1,0 +1,2 @@
+# requirements.txt
+python-frontmatter>=1.0.0
