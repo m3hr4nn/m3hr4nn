@@ -1,0 +1,63 @@
+name: Update Portfolio from TIL
+
+on:
+  schedule:
+    # Runs daily at 12:00 AM UTC 
+    - cron: '0 0 * * *'
+  workflow_dispatch:  
+  push:
+    branches: [ blog ]  
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout portfolio repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Fetch full history for better git operations
+        
+    - name: Checkout TIL repository
+      uses: actions/checkout@v4
+      with:
+        repository: m3hr4nn/TIL
+        path: til-content
+        fetch-depth: 0
+        
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install markdown python-frontmatter requests beautifulsoup4
+        
+    - name: Process TIL content
+      run: |
+        python scripts/process-til.py
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "🤖 Auto-update portfolio from TIL - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+        
+    - name: Create deployment comment
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        echo "Portfolio updated successfully at $(date)"
