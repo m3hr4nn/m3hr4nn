@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehran's Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .post { border: 1px solid #ddd; margin: 10px 0; padding: 15px; border-radius: 5px; }
+        .category { background: #f0f0f0; padding: 2px 8px; border-radius: 3px; font-size: 0.8em; }
+        .stats { background: #f8f9fa; padding: 10px; border-radius: 5px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mehran's Portfolio</h1>
+        <p>Welcome to my portfolio! This page is automatically updated from my <a href="https://github.com/m3hr4nn/TIL">TIL repository</a>.</p>
+        
+        <div id="stats" class="stats">
+            <h3>Statistics</h3>
+            <p>Loading...</p>
+        </div>
+        
+        <div id="posts">
+            <h2>Recent Posts</h2>
+            <p>Loading posts...</p>
+        </div>
+    </div>
+
+    <script>
+        // Load and display TIL posts
+        fetch('data/til-posts.json')
+            .then(response => response.json())
+            .then(posts => {
+                const postsContainer = document.getElementById('posts');
+                postsContainer.innerHTML = '<h2>Recent Posts</h2>';
+                
+                posts.forEach(post => {
+                    const postElement = document.createElement('div');
+                    postElement.className = 'post';
+                    postElement.innerHTML = `
+                        <h3><a href="${post.url}" target="_blank">${post.title}</a></h3>
+                        <p><span class="category">${post.category}</span> • ${post.reading_time} min read • ${new Date(post.last_modified).toLocaleDateString()}</p>
+                        <p>${post.description}</p>
+                    `;
+                    postsContainer.appendChild(postElement);
+                });
+            })
+            .catch(error => {
+                console.error('Error loading posts:', error);
+                document.getElementById('posts').innerHTML = '<p>Error loading posts.</p>';
+            });
+        
+        // Load and display statistics
+        fetch('data/til-stats.json')
+            .then(response => response.json())
+            .then(stats => {
+                const statsContainer = document.getElementById('stats');
+                const categories = Object.entries(stats.categories).map(([cat, count]) => `${cat}: ${count}`).join(', ');
+                statsContainer.innerHTML = `
+                    <h3>Statistics</h3>
+                    <p>Total Posts: ${stats.total_posts}</p>
+                    <p>Categories: ${categories}</p>
+                    <p>Last Updated: ${new Date(stats.last_updated).toLocaleString()}</p>
+                `;
+            })
+            .catch(error => {
+                console.error('Error loading stats:', error);
+            });
+    </script>
+</body>
+</html>
