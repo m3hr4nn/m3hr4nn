@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehran Naderizadeh's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">Mehran Naderizadeh</h1>
+      <p class="text-lg mt-2">DevOps Engineer | Infrastructure Specialist</p>
+      <nav class="mt-4">
+        <a href="#about" class="mx-4 hover:underline">About</a>
+        <a href="#experience" class="mx-4 hover:underline">Experience</a>
+        <a href="#projects" class="mx-4 hover:underline">Projects</a>
+        <a href="#education" class="mx-4 hover:underline">Education</a>
+        <a href="#contact" class="mx-4 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+      <p class="text-lg text-center max-w-2xl mx-auto">
+        I'm a DevOps Engineer with 6 years of experience designing and maintaining large-scale infrastructure for major telecom operators. I specialize in containerization, CI/CD automation, and cloud technologies, managing over 5,000 computing resources across 10+ data centers. My expertise includes Kubernetes, Linux administration, and enterprise solutions, with a focus on improving system performance and scalability.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Work Experience</h2>
+      <div class="max-w-3xl mx-auto">
+        <!-- MCI - Hamrahe Aval -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold">InfraDevOps / OS Expert, MCI - Hamrahe Aval</h3>
+          <p class="text-sm text-gray-600">Tehran | Apr 2025 - Present</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Managed 5,000+ computing resources (physical and virtual) for a cellular operator’s high-end infrastructure.</li>
+            <li>Maintained 99.9% uptime and SLA compliance across 10+ data centers.</li>
+            <li>Developed and implemented CI/CD pipelines, reducing software deployment time by 60%.</li>
+            <li>Provided critical DevOps support for software and telecom core teams.</li>
+          </ul>
+        </div>
+        <!-- Huawei Technologies (Team Leader) -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold">Infrastructure DevOps Team Leader, Huawei Technologies</h3>
+          <p class="text-sm text-gray-600">Tehran | Feb 2023 - Dec 2024</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Led enterprise-wide migration from VM-based to container-based infrastructure.</li>
+            <li>Supervised hardware installations across 3 geo-location sites with zero downtime.</li>
+            <li>Managed containerized workloads scaling from 500 to 2,000+ instances.</li>
+            <li>Oversaw 250+ bare-metal servers using advanced automation and monitoring solutions.</li>
+          </ul>
+        </div>
+        <!-- Huawei Technologies (DevOps Engineer) -->
+        <div>
+          <h3 class="text-xl font-semibold">DevOps Engineer, Huawei Technologies</h3>
+          <p class="text-sm text-gray-600">Tehran | Aug 2019 - Feb 2023</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Maintained 1,000+ production VM nodes in a distributed cloud environment with 99.99% availability.</li>
+            <li>Developed Python-based monitoring solutions for network device health and performance.</li>
+            <li>Optimized system upgrades and patch management processes for enterprise-grade infrastructure.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Key Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold">InfraDevOps Automation</h3>
+          <p class="mt-2">Delivered consistent computing resource provisioning for cross-functional teams, with automated testing frameworks and local GitLab infrastructure.</p>
+          <p class="mt-2 text-sm text-gray-600"><strong>Tech:</strong> GitLab, Python, Bash, Ansible</p>
+          <a href="https://github.com/m3hr4nn/infradevops-automation" class="mt-4 inline-block text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold">Container Migration Initiative</h3>
+          <p class="mt-2">Led migration of 2,000+ workloads from VMs to Kubernetes containers, reducing costs by 35% and improving scalability.</p>
+          <p class="mt-2 text-sm text-gray-600"><strong>Tech:</strong> Kubernetes, Docker, Terraform, AWS</p>
+          <a href="https://github.com/m3hr4nn/container-migration" class="mt-4 inline-block text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold">Multi-Site Disaster Recovery</h3>
+          <p class="mt-2">Designed automated failover mechanisms across 3 data centers with RPO/RTO under 15 minutes.</p>
+          <p class="mt-2 text-sm text-gray-600"><strong>Tech:</strong> Kubernetes, Python, Ceph</p>
+          <a href="https://github.com/m3hr4nn/disaster-recovery" class="mt-4 inline-block text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications Section -->
+  <section id="education" class="bg-white py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Education & Certifications</h2>
+      <div class="max-w-3xl mx-auto">
+        <!-- Education -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold">Bachelor's Degree in Electrical Engineering, Telecommunications</h3>
+          <p class="text-sm text-gray-600">Qom University of Technology | 2013 - 2018</p>
+          <p class="mt-2">Relevant Coursework: Digital Communications, Wireless Systems, Computer Networks, Signal Processing, Python Programming, Control Systems, Embedded Systems, Operating Systems</p>
+        </div>
+        <!-- Certifications -->
+        <div>
+          <h3 class="text-xl font-semibold">Certifications</h3>
+          <ul class="list-disc list-inside mt-2">
+            <li>Git & Jenkins - In Progress (Linux House Fanavarn Anisa, 2025)</li>
+            <li>Ceph Distributed Storage System - In Progress (Linux House Fanavarn Anisa, 2025)</li>
+            <li>Advanced Docker, Kubernetes, and OpenStack (Linux House Fanavarn Anisa, 2021, 2023)</li>
+            <li>LPIC-1 and LPIC-2 Certification (Linux House Fanavarn Anisa, 2019, 2021)</li>
+            <li>Advanced Python Programming (Linux House Fanavarn Anisa, 2020)</li>
+            <li>ISO 27001 and ISO 45001 (PPAK, 2022)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="text-lg max-w-xl mx-auto">
+        Interested in collaborating or have a question? Reach out to me via email, LinkedIn, or GitHub.
+      </p>
+      <div class="mt-4">
+        <a href="mailto:mehrran.n1995@gmail.com" class="mx-4 text-blue-600 hover:underline">Email</a>
+        <a href="https://linkedin.com/in/mehran-naderizadeh" class="mx-4 text-blue-600 hover:underline">LinkedIn</a>
+        <a href="https://github.com/m3hr4nn" class="mx-4 text-blue-600 hover:underline">GitHub</a>
+        <a href="https://m3hr4nn.com" class="mx-4 text-blue-600 hover:underline">Website</a>
+      </div>
+      <a href="[Your resume PDF link]" class="mt-6 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>© 2025 Mehran Naderizadeh. All rights reserved.</p>
+  </footer>
+</body>
+</html>
