@@ -12,6 +12,7 @@
 [![Email](https://img.shields.io/badge/Email-mehran.n1995@gmail.com-red?style=flat-square&logo=gmail)](mailto:mehran.n1995@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mehran%20Naderizadeh-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/m3hr4nn)
 [![Telegram](https://img.shields.io/badge/Telegram-@m3hr4nn-2CA5E0?style=flat-square&logo=telegram)](https://t.me/m3hr4nn)
+![Profile Views](https://komarev.com/ghpvc/?username=m3hr4nn&label=Profile%20views&color=0e75b6&style=flat)
 
 ## 🚀 DevOps Engineer | Infrastructure Architect | Container Orchestration Expert
 
