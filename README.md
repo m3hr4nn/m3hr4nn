@@ -1,8 +1,8 @@
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey!+I'm+Mehran+Naderizadeh;DevOps+Engineer+%7C+Infrastructure+Expert;+6%2B+Years+in+the+business" alt="Typing SVG" />
+</div>
+<div align="center">
   
-# 👋 Hello, I'm Mehran Naderizadeh
-
-### DevOps Engineer | Linux Infrastructure Specialist
 
 [![Website](https://img.shields.io/badge/🌐_Portfolio-m3hr4n.com-6366f1?style=for-the-badge)](https://m3hr4n.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/m3hr4nn)
@@ -95,29 +95,45 @@ Deployment_Time_Improved: 60%
 - ✅ Maintained **99.99% availability** during peak traffic
 - ✅ Implemented cross-site data replication with Ceph storage
 
-## 🌟 Featured Open Source Projects
+## 📈 GitHub Contribution Activity
 
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**TIL Snippets**](https://m3hr4nn.github.io/TIL/) | Daily learning notes across various technologies | Documentation |
-| [**MXTSessions Generator**](https://m3hr4nn.github.io/mxtsessions-generator/) | Convert CSV/Excel to MobaXterm sessions | JavaScript |
-| [**WSDL to Excel**](https://m3hr4nn.github.io/wsdl-to-xlsx-converter/) | Convert WSDL files to structured Excel | JavaScript, XML |
-| [**IP Subnet Calculator**](https://m3hr4nn.github.io/ip-calculator/) | Network configuration tool | JavaScript |
-| [**Prompt Decorators**](https://github.com/m3hr4nn/prompt-decorators) | AI prompt engineering framework | Python, AI/ML |
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m3hr4nn&theme=tokyonight)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=m3hr4nn&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=m3hr4nn&theme=tokyonight)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=m3hr4nn&theme=tokyonight)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=m3hr4nn&theme=tokyonight)
 
 </div>
 
-## 📈 GitHub Stats
+## 🚀 What I've Been Building
 
 <div align="center">
+<div align="center">
+<a href="https://github.com/m3hr4nn/googleipmonitor">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=googleipmonitor&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+<a href="https://github.com/m3hr4nn/logboss">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=logboss&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+<a href="https://github.com/m3hr4nn/TIL">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=TIL&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+<a href="https://github.com/m3hr4nn/mxtsessions-generator">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=mxtsessions-generator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+<a href="https://github.com/m3hr4nn/fix-the-pipline">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=fix-the-pipline&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+<a href="https://github.com/m3hr4nn/ip-calculator">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=m3hr4nn&repo=ip-calculator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb" />
+</a>
+</div>
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=m3hr4nn&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=14b8a6&text_color=e5e7eb)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=m3hr4nn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=e5e7eb)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=m3hr4nn&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=14b8a6&currStreakLabel=e5e7eb)
+### 🔗 [View All Projects on My Portfolio →](https://m3hr4n.com/#opensource)
 
 </div>
 
