@@ -7,7 +7,6 @@
 [![Website](https://img.shields.io/badge/🌐_Portfolio-m3hr4n.com-6366f1?style=for-the-badge)](https://m3hr4n.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/m3hr4nn)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehran.n1995@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/m3hr4nn)
 
 ---
 
