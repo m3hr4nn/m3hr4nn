@@ -16,7 +16,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate DevOps Engineer with **6+ years** of experience designing, implementing, and maintaining **large-scale infrastructure** for major telecom operators. Currently at **MCI (Hamrahe Aval)**, I manage over **5,000 computing resources** across **10+ data centers**, maintaining **99.9% uptime** while architecting modern cloud-native solutions.
+I'm a passionate DevOps Engineer with **6+ years** of experience designing, implementing, and maintaining **large-scale infrastructure** for major telecom operators. Currently at **MCI (Hamrahe Aval)**, I manage over **35,000 computing resources** across **10+ data centers**, maintaining **99.9% uptime** while architecting modern cloud-native solutions.
 
 Previously as **Infrastructure DevOps Team Leader at Huawei Technologies**, I led the enterprise-wide digital transformation from VM-based to container-based infrastructure, scaling from 500 to 2,000+ containerized workloads while achieving **35% cost reduction**.
 
