@@ -22,7 +22,7 @@ Previously as **Infrastructure DevOps Team Leader at Huawei Technologies**, I le
 
 ### 💼 Current Role
 **InfraDevOps Engineer / OS Expert** @ MCI - Hamrahe Aval
-- 🔧 Managing 5,000+ physical & virtual servers
+- 🔧 Managing 35,000+ physical & virtual servers
 - 🌐 Operating across 10+ geographically distributed data centers
 - 📊 Maintaining 99.9% SLA compliance
 - ⚡ Reduced deployment time by 60% through CI/CD automation
@@ -139,8 +139,8 @@ Deployment_Time_Improved: 60%
 ## 🎓 Certifications & Education
 
 **Certifications:**
-- 🔄 Git Version Control & Jenkins - *In Progress (2025)*
-- 💾 Ceph Storage System Administration - *In Progress (2025)*
+- 🔄 Git Version Control & Jenkins -  (2025)*
+- 💾 Ceph Storage System Administration - (2025)*
 - 🐳 Advanced Docker, Kubernetes & OpenStack *(2021, 2023)*
 - 🐧 LPIC-1 & LPIC-2 Linux Professional *(2019, 2021)*
 - 🐍 Advanced Python Programming for DevOps *(2020)*
