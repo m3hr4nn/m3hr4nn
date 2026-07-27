@@ -68,7 +68,6 @@ Built reusable Ansible automation and GitLab pipelines for Linux provisioning, c
 | [WSDL to XLSX](https://github.com/m3hr4nn/wsdl-to-xlsx-converter) | Converts WSDL definitions into structured Excel workbooks. | JavaScript · XML |
 | [WSDL to DOCX](https://github.com/m3hr4nn/wsdl-to-docx-converter) | Converts WSDL definitions into structured Word documents. | JavaScript · XML |
 | [IP Calculator](https://github.com/m3hr4nn/ip-calculator) | Browser-based IPv4 subnet calculator for network planning. | JavaScript · Networking |
-| [Ansible](https://github.com/m3hr4nn/ansible) | Infrastructure automation examples and reusable playbooks. | Ansible · Linux |
 
 <div align="center">
 
